@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  height: 600px;
+}
+.checkbox {
+  text-decoration: line-through;
+}
+.navbar {
+  background-color: rgb(62, 146, 62);
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.textoNav {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+.contenedorTodo {
+  background-color: rgb(23, 131, 23);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 600px;
+}
+.contenedorLista {
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: space-around;
+}
+.contenedorInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedorInput h1 {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.inputPrincipal {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.botonPrincipal {
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 2px;
+}
+.titulo {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.contenedorCheckbox {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 4fr;
+  justify-content: space-around;
+}
+.inputModificado {
+  margin: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.edit {
+  padding: 2px;
+  width: 50px;
+  border-radius: 12px;
+}
+.delete {
+  padding: 2px;
+  width: 50px;
+  border-radius: 12px;
+}
+.save {
+  padding: 2px;
+  width: 50px;
+  border-radius: 12px;
+}
